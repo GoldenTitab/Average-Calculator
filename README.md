@@ -1,49 +1,55 @@
-Average Calculator
-A simple Python GUI app built with Tkinter that lets you enter multiple numbers separated by spaces and calculates their average instantly.
+# 🧮 Average Calculator (Tkinter)
 
-Features
-Input multiple numbers separated by space
+This is a simple GUI-based Python application that calculates the **average** of numbers entered by the user. It's built using the `tkinter` library.
 
-Calculate the average of the entered numbers
+## 📌 Features
 
-Clear input and result easily with a button
+- Takes a list of numbers separated by space
+- Calculates the average
+- Displays the result in a user-friendly interface
+- Option to clear the input and result
 
-Requirements
-Python 3.x installed
+## 🚀 How to Run
 
-Tkinter module (usually comes pre-installed with Python)
+1. Make sure you have Python installed (version 3.x).
+2. Run the following command in your terminal:
 
-How to Run
-Save the script as average_calculator.py (or any name you like).
-
-Open your terminal or command prompt and run:
-
-bash
-Copy
-Edit
+```bash
 python average_calculator.py
-A window will pop up.
+```
 
-Enter numbers separated by space (e.g. 10 20 30 40) in the input box.
+> Replace `average_calculator.py` with the actual filename if different.
 
-Click Calculate to see the average.
+## 🧠 How It Works
 
-Click Clear to reset the input and output fields.
+- The user inputs space-separated numbers (e.g., `10 20 30`).
+- The app splits the input, converts each to an integer, and calculates the average.
+- Result is shown below the buttons.
+- The **Clear** button resets the input field and result label.
 
-Code Breakdown
-calculate_average: Parses input numbers, sums them up, and calculates the average.
+## 🛠 Built With
 
-clear_entries: Clears the input field and result label.
+- Python 🐍
+- Tkinter (standard GUI toolkit for Python)
 
-Built with Tkinter widgets like Entry, Label, and Button.
+## 💡 Screenshot
 
-Possible Improvements
-Add error handling for invalid inputs (non-numeric values)
+![App Screenshot](screenshot.png)
 
-Support floating-point numbers (decimals)
+> You can add a screenshot of the app UI with the filename `screenshot.png` in your repo.
 
-Show the count of numbers entered
+## 📂 Project Structure
 
-Save calculation history to a file
+```
+📁 your-project/
+├── average_calculator.py
+└── README.md
+```
 
-Made by GoldenTitab 🚀✨
+## 📃 License
+
+This project is open-source and free to use under the [MIT License](LICENSE).
+
+---
+
+Made with ❤️ using Python and Tkinter.
