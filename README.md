@@ -32,12 +32,6 @@ python average_calculator.py
 - Python 🐍
 - Tkinter (standard GUI toolkit for Python)
 
-## 💡 Screenshot
-
-![App Screenshot](screenshot.png)
-
-> You can add a screenshot of the app UI with the filename `screenshot.png` in your repo.
-
 ## 📂 Project Structure
 
 ```
